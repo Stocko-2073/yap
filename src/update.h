@@ -10,7 +10,7 @@
 //
 // Two things are pinned and neither is optional:
 //
-//   * where the answer comes from -- https://api.github.com/repos/samw3/yap
+//   * where the answer comes from -- https://api.github.com/repos/Stocko-2073/yap
 //   * who signed what the answer points at -- a Developer ID leaf on our team,
 //     chained to Apple, with our bundle identifier. That check, not the URL, is
 //     what makes the download safe to run.

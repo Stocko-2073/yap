@@ -19,8 +19,8 @@ NSString * const YapUpdaterDidChangeNotification = @"YapUpdaterDidChange";
 // pre-releases, which is exactly the filter wanted: a draft is a release that is
 // still being uploaded, and half a disk image is not an update.
 static NSString * const kLatestReleaseURL =
-    @"https://api.github.com/repos/samw3/yap/releases/latest";
-static NSString * const kReleasesPage = @"https://github.com/samw3/yap/releases";
+    @"https://api.github.com/repos/Stocko-2073/yap/releases/latest";
+static NSString * const kReleasesPage = @"https://github.com/Stocko-2073/yap/releases";
 static NSString * const kBundleID = @"com.samw3.yap";
 static NSString * const kTeamID   = @"266VNLKVKQ";
 static NSString * const kAppName  = @"Yap.app";
@@ -49,7 +49,7 @@ static NSString * display_version(NSString * tag) {
 
 static NSString * user_agent(void) {
     // GitHub rejects an API request that arrives without one.
-    return [NSString stringWithFormat:@"Yap/%@ (macOS; +https://github.com/samw3/yap)",
+    return [NSString stringWithFormat:@"Yap/%@ (macOS; +https://github.com/Stocko-2073/yap)",
                                       running_version()];
 }
 

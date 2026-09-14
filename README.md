@@ -149,7 +149,13 @@ Two grants, both one-time:
 
 ## Updates
 
-Yap updates itself from this repo's [releases](https://github.com/samw3/yap/releases).
+Yap updates itself from this repo's [releases](https://github.com/Stocko-2073/yap/releases).
+Versions before 0.6.2 check `samw3/yap` instead. Those installs need a manual
+upgrade, or a newer release published on the old repo that switches them to this
+one. Keep the old repo available while supporting that update path. Pushing Git
+branches and tags to the new repo does not copy release assets; publish a DMG here
+before relying on automatic updates.
+
 Once a day it asks `api.github.com` for the latest release and compares its tag against
 the running version. Nothing is downloaded and nothing is installed without a click, and
 an automatic check never raises an alert — it only changes what the menu says.
